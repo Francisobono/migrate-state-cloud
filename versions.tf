@@ -10,7 +10,7 @@ terraform {
   # Update remote backend information
    backend "remote" {
      hostname      = "app.terraform.io"
-     organization  = "terraformprepa"  # Organization should already exists in Terraform Cloud
+     organization  = "terraformprepa2024"  # Organization should already exists in Terraform Cloud
 
      workspaces {
        name = "migrate-state-cloud"
